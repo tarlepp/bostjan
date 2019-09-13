@@ -58,4 +58,7 @@ Open `localhost:8000` with your favorite browser, first you should see the
 `default` exception message - then change your `.env` file as described 
 before and hit F5 - you should see the custom error template.
 
+Or if you want to see that error page on `dev` environment just use the
+following url to see that custom error page;
 
+http://localhost:8001/_error/500
